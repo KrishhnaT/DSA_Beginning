@@ -10,7 +10,7 @@ public:
 
 };
 
-void print(Car c){
+void print(Car& c){
 cout<<c.name<<" "<<c.price<<" "<<c.seats<<" "<<c.type<<" "<<endl;
 };
 
