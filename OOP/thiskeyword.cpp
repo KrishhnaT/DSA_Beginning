@@ -13,7 +13,7 @@ class Cricketer{
 };
 
 int main() {
-     Cricketer c("Virat",200);
+     Cricketer c("V",200);
 
     return 0;
 }

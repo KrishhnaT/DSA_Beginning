@@ -19,7 +19,6 @@ public:
     void change(const char*);
 };
 
-// Definitions of constructor and memeber functions
 String::String(const char* str) {
     size = strlen(str);
     s = new char[size + 1];
@@ -48,7 +47,7 @@ int main() {
     str1.print(); // what is printed ?
     str2.print();
 
-    str2.change("GeeksforGeeks");
+    str2.change("Geeks for Geeks");
 
     str1.print(); // what is printed now ?
     str2.print();
